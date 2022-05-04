@@ -1,11 +1,11 @@
 server:
   port: 8081
 spring:
-  cloud: 
+  cloud:
     config:
       server:
         git:
-          default-label: gateway #multiple-instances / eureka / config-server nombre de la rama en la cual va a trabajar
+          default-label: gateway
           uri: https://github.com/jhonZevallos/microservicios-tutorial
           search-paths: config-data
   application:
