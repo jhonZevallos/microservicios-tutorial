@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: eureka #default-label: config-server nombre de la rama en la cual va a trabajar
+          default-label: multiple-instances #default-label: eureka #default-label: config-server nombre de la rama en la cual va a trabajar
           uri: https://github.com/jhonZevallos/microservicios-tutorial
           search-paths: config-data
   application:
